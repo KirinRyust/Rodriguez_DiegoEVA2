@@ -1,7 +1,7 @@
 from django.db import models # type: ignore
 
 # Create your models here.
-class Seminario(models.Model):
+class Django_Seminario(models.Model):
     nombrePersona = models.CharField(max_length=50)
     telefono = models.IntegerField()
     fechaSeminario = models.DateField()
